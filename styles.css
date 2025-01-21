@@ -4,6 +4,10 @@ margin: 0;
 padding: 0px;
 }
 
+/* -------------- */
+/* Header section */
+/* -------------- */
+
 .header-nav {
 background-color: #1f2937;
 color: #F9FAF8;
@@ -65,4 +69,45 @@ width: 160px;
 img {
 width: 500px;
 height: auto;
+}
+
+/* --------------- */
+/* Content section */
+/* --------------- */
+
+.content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px;
+}
+
+h2 {
+font-size: 36px;
+color: #1F2937;
+font-weight: 900;
+margin-bottom: 50px;
+
+}
+
+.squares {
+display: flex;
+gap: 50px;
+text-align: center;
+flex-wrap: wrap;
+}
+
+.square-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+max-width: 200px;
+}
+.square {
+border: 5px solid #3882F6;
+width: 200px;
+height: 200px;
+border-radius: 25px;
+flex-shrink: 0;
 }
