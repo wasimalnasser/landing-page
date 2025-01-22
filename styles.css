@@ -23,13 +23,18 @@ border: 2px solid white;
 /* Header section */
 /* -------------- */
 
-.header-nav {
+.nav-bar {
 background-color: #1f2937;
 color: #F9FAF8;
+}
+
+.nav-bar-content {
 display: flex;
 justify-content: space-between;
 padding: 24px;
 align-items: center;
+max-width: 1050px;
+margin: auto;
 }
 
 .logo {
