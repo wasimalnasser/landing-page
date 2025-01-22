@@ -47,6 +47,10 @@ gap: 16px;
 max-width: 500px;
 }
 
+.header-content-right {
+display: flex;
+}
+
 h1 {
 font-size: 48px;
 font-weight: 900;
@@ -69,6 +73,7 @@ width: 160px;
 img {
 width: 500px;
 height: auto;
+flex: 4;
 }
 
 /* --------------- */
@@ -96,6 +101,7 @@ display: flex;
 gap: 50px;
 text-align: center;
 flex-wrap: wrap;
+margin-bottom: 40px;
 }
 
 .square-container {
@@ -110,4 +116,30 @@ width: 200px;
 height: 200px;
 border-radius: 25px;
 flex-shrink: 0;
+margin-bottom: 10px;
+}
+
+/* ------------------- */
+/* Testimonial section */
+/* ------------------- */
+
+.testimonial {
+background-color: #E5E7EB;
+padding: 160px;
+display: flex;
+justify-content: center;
+}
+
+.testimonial-text {
+font-size: 36px;
+color: #1F2937;
+font-style: italic;
+max-width: 1000px;
+}
+
+.testimonial-author {
+font-size: 24px;
+font-weight: 900;
+justify-self: flex-end;
+margin-top: 20px;
 }
